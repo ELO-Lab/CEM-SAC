@@ -15,7 +15,7 @@ $ cd CEC_SAC
 ```
 - The following packages are needed:
 ```
-tianshou==0.4.4
+tianshou==0.4.2
 gym==0.19.0
 mujoco_py==2.0.2.13 (need to install mujoco200 from http://www.mujoco.org/ or try my sh script)
 ```
@@ -37,6 +37,8 @@ os.environ.get("LD_LIBRARY_PATH", "")
 ```
 python3 cem_sac.py --task [environment_name] --seed [seed] --logdir [log_directory]
 ```
+### Google Colab Notebook
+Try this notebook to run our code without local installation
 
 ### Visualize (comming soon)
 
